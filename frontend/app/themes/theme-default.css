@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 5% 97%; /* Blanc cassé */
+    --foreground: 240 3% 20%; /* Gris foncé */
+    --card: 240 5% 97%; /* Blanc cassé */
+    --card-foreground: 240 3% 20%; /* Gris foncé */
+    --popover: 240 5% 97%;
+    --popover-foreground: 240 3% 20%;
+
+    /* Couleur primaire : Bleu profond */
+    --primary: 210 100% 40%; /* Correspond à #0044cc */
+    --primary-foreground: 0 0% 100%; /* Texte blanc pour le bleu profond */
+
+    /* Couleur secondaire : Orange vif */
+    --secondary: 30 100% 50%; /* Correspond à #ff6600 */
+    --secondary-foreground: 0 0% 100%; /* Texte blanc pour l'orange vif */
+
+    /* Couleur d'accent : Gris clair */
+    --accent: 0 0% 96%; /* Correspond à #f5f5f5 */
+    --accent-foreground: 240 3% 20%; /* Texte gris foncé pour le gris clair */
+
+    /* Couleurs mutées pour les éléments moins importants */
+    --muted: 240 5% 97%;
+    --muted-foreground: 240 3% 60%;
+
+    /* Couleur destructive pour les erreurs */
+    --destructive: 0 84% 60%; /* Couleur vive pour attirer l'attention */
+    --destructive-foreground: 0 0% 100%; /* Texte blanc pour le rouge destructif */
+
+    /* Bordures et entrées */
+    --border: 240 3% 85%;
+    --input: 240 3% 85%;
+
+    /* Ring pour focus */
+    --ring: 210 100% 40%; /* Bleu profond pour le focus */
+
+    --radius: 0.5rem;
+
+    /* Couleurs de graphiques */
+    --chart-1: 210 100% 40%; /* Bleu profond */
+    --chart-2: 30 100% 50%; /* Orange vif */
+    --chart-3: 0 0% 75%; /* Gris moyen */
+    --chart-4: 0 0% 85%; /* Gris très clair */
+    --chart-5: 240 3% 50%; /* Gris moyen foncé */
+  }
+
+  .dark {
+    --background: 240 3% 10%; /* Gris très foncé */
+    --foreground: 0 0% 95%; /* Blanc très clair pour le texte */
+    --card: 240 3% 15%; /* Gris foncé */
+    --card-foreground: 0 0% 95%;
+    --popover: 240 3% 15%;
+    --popover-foreground: 0 0% 95%;
+
+    /* Couleur primaire : Bleu profond */
+    --primary: 210 100% 30%; /* Correspond à #0033aa */
+    --primary-foreground: 0 0% 100%; /* Texte blanc pour le bleu profond */
+
+    /* Couleur secondaire : Orange vif */
+    --secondary: 30 100% 60%; /* Correspond à #e65c00 */
+    --secondary-foreground: 0 0% 100%; /* Texte blanc pour l'orange vif */
+
+    /* Couleur d'accent : Gris clair */
+    --accent: 240 3% 15%; /* Correspond à #222 */
+    --accent-foreground: 0 0% 95%; /* Texte clair pour le gris foncé */
+
+    /* Couleurs mutées pour les éléments moins importants */
+    --muted: 240 3% 15%;
+    --muted-foreground: 240 3% 70%;
+
+    /* Couleur destructive pour les erreurs */
+    --destructive: 0 62% 35%; /* Couleur plus sombre pour les erreurs en mode sombre */
+    --destructive-foreground: 0 0% 90%; /* Texte clair pour le rouge destructif */
+
+    /* Bordures et entrées */
+    --border: 240 3% 30%;
+    --input: 240 3% 30%;
+
+    /* Ring pour focus */
+    --ring: 210 100% 30%; /* Bleu profond pour le focus */
+
+    /* Couleurs de graphiques */
+    --chart-1: 210 100% 30%; /* Bleu profond */
+    --chart-2: 30 100% 60%; /* Orange vif */
+    --chart-3: 0 0% 50%; /* Gris foncé */
+    --chart-4: 0 0% 60%; /* Gris clair */
+    --chart-5: 240 3% 50%; /* Gris moyen */
+  }
+}

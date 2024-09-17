@@ -1,0 +1,348 @@
+@layer base {
+  :root {
+    --background: 0 0% 96%; /* Background light */
+    --foreground: 222.2 15% 15%; /* Dark gray for text */
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 15% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 15% 15%;
+
+    /* Primary color: Blue */
+    --primary: 217.2 78.6% 51%; /* Correspond à #1A73E8 */
+    --primary-foreground: 210 40% 98%;
+
+    /* Secondary color: Orange */
+    --secondary: 35 95% 56%; /* Correspond à #FF9800 */
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    /* Accent color: Green */
+    --accent: 120 57% 40%; /* Correspond à #4CAF50 */
+    --accent-foreground: 210 40% 98%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    /* Destructive color for errors or warnings */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    /* Use primary color for ring */
+    --ring: 217.2 78.6% 51%; /* Correspond à #1A73E8 */
+
+    --radius: 0.5rem;
+
+    /* Chart colors */
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%; /* Dark background */
+    --foreground: 210 40% 98%; /* Light text */
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Primary color in dark mode: Blue */
+    --primary: 217.2 78.6% 51%; /* Correspond à #1A73E8 */
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    /* Secondary color in dark mode: Orange */
+    --secondary: 35 95% 56%; /* Correspond à #FF9800 */
+    --secondary-foreground: 210 40% 98%;
+
+    /* Accent color in dark mode: Green */
+    --accent: 120 57% 40%; /* Correspond à #4CAF50 */
+    --accent-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+
+    /* Use primary color for ring in dark mode */
+    --ring: 217.2 78.6% 51%; /* Correspond à #1A73E8 */
+
+    /* Dark mode chart colors */
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 96%; /* Background light */
+    --foreground: 222.2 15% 15%; /* Dark gray for text */
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 15% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 15% 15%;
+
+    /* Primary color: Blue */
+    --primary: 217.2 78.6% 51%; /* Correspond à #1A73E8 */
+    --primary-foreground: 210 40% 98%;
+
+    /* Secondary color: Orange */
+    --secondary: 35 95% 56%; /* Correspond à #FF9800 */
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    /* Accent color: Green */
+    --accent: 120 57% 40%; /* Correspond à #4CAF50 */
+    --accent-foreground: 210 40% 98%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    /* Destructive color for errors or warnings */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    /* Use primary color for ring */
+    --ring: 217.2 78.6% 51%; /* Correspond à #1A73E8 */
+
+    --radius: 0.5rem;
+
+    /* Chart colors */
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%; /* Dark background */
+    --foreground: 210 40% 98%; /* Light text */
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Primary color in dark mode: Blue */
+    --primary: 217.2 78.6% 51%; /* Correspond à #1A73E8 */
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    /* Secondary color in dark mode: Orange */
+    --secondary: 35 95% 56%; /* Correspond à #FF9800 */
+    --secondary-foreground: 210 40% 98%;
+
+    /* Accent color in dark mode: Green */
+    --accent: 120 57% 40%; /* Correspond à #4CAF50 */
+    --accent-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+
+    /* Use primary color for ring in dark mode */
+    --ring: 217.2 78.6% 51%; /* Correspond à #1A73E8 */
+
+    /* Dark mode chart colors */
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 95%; /* Fond gris clair */
+    --foreground: 222.2 15% 20%; /* Gris foncé pour le texte */
+    --card: 0 0% 100%; /* Cartes blanches */
+    --card-foreground: 222.2 15% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 15% 20%;
+
+    /* Couleur primaire : Bleu électrique */
+    --primary: 211 100% 50%; /* Correspond à #007BFF */
+    --primary-foreground: 210 40% 98%; /* Contraste blanc pour le texte sur fond bleu */
+
+    /* Couleur secondaire : Orange vif */
+    --secondary: 32 100% 53%; /* Correspond à #FF8C00 */
+    --secondary-foreground: 210 40% 98%; /* Texte clair pour contraste sur fond orange */
+
+    /* Couleur d'accent : Vert citron doux */
+    --accent: 120 60% 50%; /* Correspond à #32CD32 */
+    --accent-foreground: 210 40% 98%; /* Texte clair pour le vert */
+
+    /* Couleurs mutées pour les éléments moins importants */
+    --muted: 210 30% 90%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    /* Couleur destructive pour les erreurs */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Bordures et entrées */
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    /* Ring pour focus */
+    --ring: 211 100% 50%; /* Bleu électrique pour le focus */
+
+    --radius: 0.5rem;
+
+    /* Couleurs de graphiques */
+    --chart-1: 12 76% 61%; /* Orange vif */
+    --chart-2: 173 58% 39%; /* Vert pastel */
+    --chart-3: 197 37% 24%; /* Bleu marine */
+    --chart-4: 43 74% 66%; /* Rose pastel */
+    --chart-5: 27 87% 67%; /* Orange plus doux */
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%; /* Fond sombre */
+    --foreground: 210 40% 98%; /* Texte clair */
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Couleur primaire : Bleu électrique */
+    --primary: 211 100% 50%; /* Correspond à #007BFF */
+    --primary-foreground: 210 40% 98%; /* Texte clair pour le bleu */
+
+    /* Couleur secondaire : Orange vif */
+    --secondary: 32 100% 53%; /* Correspond à #FF8C00 */
+    --secondary-foreground: 210 40% 98%; /* Texte clair sur fond orange */
+
+    /* Couleur d'accent : Vert citron doux */
+    --accent: 120 60% 50%; /* Correspond à #32CD32 */
+    --accent-foreground: 210 40% 98%; /* Texte clair sur fond vert */
+
+    /* Couleurs mutées pour les éléments moins importants */
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    /* Couleur destructive pour les erreurs */
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Bordures et entrées */
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+
+    /* Ring pour focus */
+    --ring: 211 100% 50%; /* Bleu électrique pour le focus */
+
+    /* Couleurs de graphiques */
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+@layer base {
+  :root {
+    --background: 0 0% 96%; /* Fond beige clair */
+    --foreground: 222.2 15% 20%; /* Gris foncé pour le texte */
+    --card: 0 0% 100%; /* Cartes blanches */
+    --card-foreground: 222.2 15% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 15% 20%;
+
+    /* Couleur primaire : Vert forêt profond */
+    --primary: 120 100% 15%; /* Correspond à #004d00 */
+    --primary-foreground: 210 40% 98%; /* Contraste blanc pour le texte sur fond vert */
+
+    /* Couleur secondaire : Jaune moutarde */
+    --secondary: 50 100% 50%; /* Correspond à #ffcc00 */
+    --secondary-foreground: 222.2 15% 20%; /* Texte foncé pour contraste sur fond jaune */
+
+    /* Couleur d'accent : Vert olive */
+    --accent: 82 39% 35%; /* Correspond à #6b8e23 */
+    --accent-foreground: 210 40% 98%; /* Texte clair pour le vert olive */
+
+    /* Couleurs mutées pour les éléments moins importants */
+    --muted: 210 40% 90%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    /* Couleur destructive pour les erreurs */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Bordures et entrées */
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+
+    /* Ring pour focus */
+    --ring: 120 100% 15%; /* Vert forêt pour le focus */
+
+    --radius: 0.5rem;
+
+    /* Couleurs de graphiques */
+    --chart-1: 50 100% 50%; /* Jaune moutarde */
+    --chart-2: 82 39% 35%; /* Vert olive */
+    --chart-3: 30 80% 55%; /* Orange plus doux */
+    --chart-4: 280 65% 60%; /* Rose pastel */
+    --chart-5: 340 75% 55%; /* Couleur plus chaude */
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%; /* Fond sombre */
+    --foreground: 210 40% 98%; /* Texte clair */
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Couleur primaire : Vert forêt profond */
+    --primary: 120 100% 15%; /* Correspond à #004d00 */
+    --primary-foreground: 210 40% 98%; /* Texte clair pour le vert */
+
+    /* Couleur secondaire : Jaune moutarde */
+    --secondary: 50 100% 50%; /* Correspond à #ffcc00 */
+    --secondary-foreground: 222.2 15% 20%; /* Texte foncé sur fond jaune */
+
+    /* Couleur d'accent : Vert olive */
+    --accent: 82 39% 35%; /* Correspond à #6b8e23 */
+    --accent-foreground: 210 40% 98%; /* Texte clair sur fond vert olive */
+
+    /* Couleurs mutées pour les éléments moins importants */
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    /* Couleur destructive pour les erreurs */
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Bordures et entrées */
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+
+    /* Ring pour focus */
+    --ring: 120 100% 15%; /* Vert forêt pour le focus */
+
+    /* Couleurs de graphiques */
+    --chart-1: 50 100% 50%;
+    --chart-2: 82 39% 35%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
